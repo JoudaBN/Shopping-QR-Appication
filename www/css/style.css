@@ -1,0 +1,44 @@
+*{@include box-sizing(border-box);}
+
+.header {
+	width: screen.width;
+	position: absolute;
+	top: 0; left: 0; right: 0;
+	height: 100px;
+	line-height: 60px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #11a7ab;
+}
+
+.nav {
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #4f597b;
+	overflow: hidden;
+}
+
+a {
+	display: block;
+	width: 49%;
+	height: 60px; line-height: 60px;
+	float: left;
+}
+a:first-child {border-right: 1px solid #1f253d;}
+.active {border-top: 3px solid #11a7ab;}
+i {
+	margin-top: 15px;
+}
+
+#home {
+	text-align: center;
+}
+
+#qr {
+	text-align: center;
+	float: right;
+}
